@@ -16,8 +16,7 @@ Secara sederhana merupakan sebuah *Version Control System* atau sebuah sistem ya
 **Istilah-istilah dalam Git**
 - **Repository / repo** : Folder yang mengelola perubahan file sebuah software.
 - **Commit** : Riwayat perubahan file disimpan menggunakan serangkaian commit.
-- **Hash** : Penanda unik untuk setiap commit. ![image](https://user-images.githubusercontent.com/123937217/215648505-497886ad-6f47-45f8-a929-7342f45a85a5.png)
-
+- **Hash** : Penanda unik untuk setiap commit.
 - **Branch** : Cabang pada commit agar tidak menganggu commit utama.
 - **Merge** : Penggabungan dua buah branch.
 - **Checkout** : Berpindah ke sebuah commit.
@@ -59,13 +58,42 @@ Repository merupakan folder tempat menyimpan project.
 > <img width="942" alt="vid1 rush" src="https://user-images.githubusercontent.com/123937217/215649595-01ed1ec2-dc20-4843-b351-7d49d59660c7.png">
 > Angka random yang terdapat di setiap commit pada sisi kanan atas adalah **hash** 
 
+## Lebih Lanjut tentang Branch 
+Branch merupakan cabang dari repository utama. Kode yang dimodifikasi pada branch tidak akan menimbulkan efek apapun pada repository utama. [Branch](https://idwebhost.com/blog/cari-tahu-apa-itu-github-dan-cara-menggunakannya/)
 
+Dalam satu repo bisa dibuat beberapa branch.
 
+### Branching atau Teknik Branch
+- Membuat Git Branch
+<img width="651" alt="branch" src="https://user-images.githubusercontent.com/123937217/215695779-3a7033a3-86ab-4e0f-959a-dfaba418672b.png">
 
+- Membuat snapshot tanpa menganggu jalur utama (master branch).
+<img width="449" alt="rangkuman" src="https://user-images.githubusercontent.com/123937217/215697121-e1731e47-6cc6-4bc5-bbe5-8362830d54b3.png">
+<img width="613" alt="cabang lain" src="https://user-images.githubusercontent.com/123937217/215699161-426ff8e5-cb22-4c09-8a89-317a3e9d08e8.png">
 
+- Fitur experimental 
+- Dua orang mengerjakan repo yang sama.
 
+Didalam Branch terdapat merge.
 
+#### Merge
 
+<img width="913" alt="gabung" src="https://user-images.githubusercontent.com/123937217/215705951-a4bb296e-55d5-4231-a572-948f3a45a8cc.png">
+
+Merge berfungsi untuk menggabungkan commit ke jalur utama.
+> **Merging**
+
+> Menggabungkan dua buah branch.
+
+> <img width="695" alt="compare" src="https://user-images.githubusercontent.com/123937217/215700124-edfbca9e-235d-49cc-8843-c2d1736effc9.png">
+
+> Pull request adalah branch meminta menarik perubahan yang terjadi kepada master.
+
+> <img width="943" alt="pull req" src="https://user-images.githubusercontent.com/123937217/215701241-5d920fb1-d26a-4886-9584-a98cf3e7b2a0.png">
+
+> Berhasil melakukan merge.
+
+> <img width="721" alt="yeay" src="https://user-images.githubusercontent.com/123937217/215702831-496e8327-9c1a-481f-ab8a-730551d86d75.png">
 
 
 
