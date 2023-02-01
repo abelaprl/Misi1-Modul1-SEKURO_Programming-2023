@@ -95,6 +95,32 @@ Merge berfungsi untuk menggabungkan commit ke jalur utama.
 
 > <img width="721" alt="yeay" src="https://user-images.githubusercontent.com/123937217/215702831-496e8327-9c1a-481f-ab8a-730551d86d75.png">
 
+## Fork
+Fungsi Fork atau Forking adalah sebagai berikut.
+- Membuat 'copy / duplikat' dari repo orang lain (beserta history-nya).
+- Jembatan antara repo original dan duplikatnya.
+- Modifikasi terhadap repo original.
+> Contoh saat melakukan fork pada repo akun orang lain adalah sebagai berikut.
+
+<img width="956" alt="fork2" src="https://user-images.githubusercontent.com/123937217/216068306-53a2b45b-2464-48f9-adcc-b35b545c952f.png">
+
+- Berkontribusi pada repo orang lain.
+> Bisa mengusulkan perubahan repo orang lain dan dikembalikan pada pemilik repo asli atau melakukan pull request pada pemilik aslinya.
+
+<img width="782" alt="frok3" src="https://user-images.githubusercontent.com/123937217/216068033-bb5c55d2-7c7c-4dda-b891-a030699c9b97.png">
+
+<img width="926" alt="fork4" src="https://user-images.githubusercontent.com/123937217/216067659-cc8b313f-2b15-44d2-a1af-9f4c9b1a17ba.png">
+
+<img width="950" alt="fork5" src="https://user-images.githubusercontent.com/123937217/216069098-7e16e8a3-7029-4183-a9e9-f607717d3488.png">
+
+> Contributor akan bertambah saat kita berhasil melakukan fork.
+
+- Fork tidak sama dengan Clone.
+
+
+ 
+
+
 
 
 
