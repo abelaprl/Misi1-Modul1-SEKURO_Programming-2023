@@ -117,6 +117,56 @@ Fungsi Fork atau Forking adalah sebagai berikut.
 
 - Fork tidak sama dengan Clone.
 
+## Bekerja Menggunakan Git
+Implementasi Software Git di komputer lokal.
+
+### Intall Git (Windows)
+Intall Git menggunakan website [Install Git](https://git-scm.com/download/win) sesuai sistem operasi komputer.
+
+<img width="385" alt="instalgit" src="https://user-images.githubusercontent.com/123937217/216368676-2c9492be-9fbc-49f4-877c-3ecb52c74e99.png">
+
+Git Bash bisa dibuka di Commad Promt atau di Git Bash yang diberi secara otomatis saat menginstall Git.
+
+<img width="706" alt="help" src="https://user-images.githubusercontent.com/123937217/216369736-5fb2e96d-a853-4ec5-b6c9-6b8d9c0f0bd4.png">
+
+### Git Command (lokal)
+- git init : menginisialiasi repo Git yang dimiliki user.
+> <img width="500" alt="init" src="https://user-images.githubusercontent.com/123937217/216377993-b54d11d3-aee5-4a1d-8035-03deca8c04b0.png">
+
+> otomatis folder berubah menjadi repo Git dengan Branch master.
+- git add <file(s)> : menambahkan file kedalam *staging area*
+> <img width="488" alt="commit berhasil" src="https://user-images.githubusercontent.com/123937217/216382584-e85ba2c0-7443-4d99-bf5c-827b3c0072a0.png">
+
+- git status : mengetahui status repo.
+> <img width="509" alt="gitstatus" src="https://user-images.githubusercontent.com/123937217/216381615-7386073e-8589-459e-9c41-9a19a6ef9485.png">
+
+- git config : memasukan konfigurasi ke dalam Git.
+> <img width="477" alt="config" src="https://user-images.githubusercontent.com/123937217/216383902-f8ab081e-114e-488e-a450-935f80363d8b.png">
+
+- git commit : melakukan commit.
+> <img width="496" alt="git comti" src="https://user-images.githubusercontent.com/123937217/216384131-22110a55-e0f0-4be7-97ac-0bcdd4ccbe49.png">
+> Kemudian git akan membuka kode editor default secara otomatis.
+
+><img width="479" alt="1" src="https://user-images.githubusercontent.com/123937217/216385451-1273f0fe-9077-47cc-b9e6-7956a6f132d5.png">
+
+> Jika melakukan commit hanya satu baris.
+
+- git branch : membuat branch.
+- git help : mengetahui sebuah perintah dengan cepat.
+
+### Tiga Area Pada Repo Git
+1. Working tree : folder berisi file-file project yang dikerjakan.
+> Menggunakan comment git add : jika terjadi perubahan, simpan perubahan ke dalam staging area.
+2. Staging area : memberitahu Git bahwa sudah terjadi perubahan.
+> Menggunakan git commit : staging ke history.
+3. History : perubahan yang dicommit akan masuk ke history.
+
+> Pada nomor 2 dan 3, repo akan tersimpan di folder .git secara otomatis.
+
+
+
+
+
 
  
 
