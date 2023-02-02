@@ -120,7 +120,7 @@ Fungsi Fork atau Forking adalah sebagai berikut.
 ## Bekerja Menggunakan Git
 Implementasi Software Git di komputer lokal.
 
-### Intall Git (Windows)
+### Install Git (Windows)
 Intall Git menggunakan website [Install Git](https://git-scm.com/download/win) sesuai sistem operasi komputer.
 
 <img width="385" alt="instalgit" src="https://user-images.githubusercontent.com/123937217/216368676-2c9492be-9fbc-49f4-877c-3ecb52c74e99.png">
@@ -130,29 +130,29 @@ Git Bash bisa dibuka di Commad Promt atau di Git Bash yang diberi secara otomati
 <img width="706" alt="help" src="https://user-images.githubusercontent.com/123937217/216369736-5fb2e96d-a853-4ec5-b6c9-6b8d9c0f0bd4.png">
 
 ### Git Command (lokal)
-- git init : menginisialiasi repo Git yang dimiliki user.
+- $ git init : menginisialiasi repo Git yang dimiliki user.
 > <img width="500" alt="init" src="https://user-images.githubusercontent.com/123937217/216377993-b54d11d3-aee5-4a1d-8035-03deca8c04b0.png">
 
 > otomatis folder berubah menjadi repo Git dengan Branch master.
-- git add <file(s)> : menambahkan file kedalam *staging area*
+- $ git add <file(s)> : menambahkan file kedalam *staging area*
 > <img width="488" alt="commit berhasil" src="https://user-images.githubusercontent.com/123937217/216382584-e85ba2c0-7443-4d99-bf5c-827b3c0072a0.png">
 
-- git status : mengetahui status repo.
+- $ git status : mengetahui status repo.
 > <img width="509" alt="gitstatus" src="https://user-images.githubusercontent.com/123937217/216381615-7386073e-8589-459e-9c41-9a19a6ef9485.png">
 
-- git config : memasukan konfigurasi ke dalam Git.
+- $ git config : memasukan konfigurasi ke dalam Git.
 > <img width="477" alt="config" src="https://user-images.githubusercontent.com/123937217/216383902-f8ab081e-114e-488e-a450-935f80363d8b.png">
 
-- git commit : melakukan commit.
+- $ git commit : melakukan commit.
 > <img width="496" alt="git comti" src="https://user-images.githubusercontent.com/123937217/216384131-22110a55-e0f0-4be7-97ac-0bcdd4ccbe49.png">
 > Kemudian git akan membuka kode editor default secara otomatis.
 
 ><img width="479" alt="1" src="https://user-images.githubusercontent.com/123937217/216385451-1273f0fe-9077-47cc-b9e6-7956a6f132d5.png">
 
-> Jika melakukan commit hanya satu baris.
+> Memasukkan pesan atau detail pada commit.
 
-- git branch : membuat branch.
-- git help : mengetahui sebuah perintah dengan cepat.
+- $ git branch : membuat branch.
+- $ git help : mengetahui sebuah perintah dengan cepat.
 
 ### Tiga Area Pada Repo Git
 1. Working tree : folder berisi file-file project yang dikerjakan.
@@ -160,17 +160,51 @@ Git Bash bisa dibuka di Commad Promt atau di Git Bash yang diberi secara otomati
 2. Staging area : memberitahu Git bahwa sudah terjadi perubahan.
 > Menggunakan git commit : staging ke history.
 3. History : perubahan yang dicommit akan masuk ke history.
+<img width="403" alt="gitlog" src="https://user-images.githubusercontent.com/123937217/216412704-b25d2110-b46f-46da-aaba-e7789691ee1c.png">
+> branch **master** merupakan commit yang aktif, **head** menunjuk pada branch tersebut.
 
 > Pada nomor 2 dan 3, repo akan tersimpan di folder .git secara otomatis.
 
+## Git Branch & Merge
+### Implementasi Branch
+- Menambahkan fitur baru pada commit (membuat branch).
+> $ git branch <nama_branch>
 
+<img width="411" alt="git bran" src="https://user-images.githubusercontent.com/123937217/216416653-08bfeb3f-f6fd-48ce-810a-e160b8eadd66.png">
 
+- Melihat perjalanan branch
+> Menampilkan visualisasi branch dalam bentuk graph.
+>> Untuk menampilkan visualisasi branch gunakan $ 'git log --all --decorate --oneline --graph'
 
+> Membuat nama lain / alias untuk mempermudah
+>> Untuk membuat nama alias gunakan $ 'alias <nama_alias>= "git log --all --decorate --oneline --graph"'
 
+<img width="361" alt="Screenshot 2023-02-03 014405" src="https://user-images.githubusercontent.com/123937217/216419515-606f5658-f8e6-420a-86fe-8c649100dec4.png">
 
- 
+> Berpindah Branch
+>> untuk berpindah ke branch lain gunakan $ 'git checkout <nama_branch>'
 
+<img width="361" alt="Screenshot 2023-02-03 014405" src="https://user-images.githubusercontent.com/123937217/216422077-602d088b-b137-42e3-a443-fe93ee8758bc.png">
 
+<img width="350" alt="gr" src="https://user-images.githubusercontent.com/123937217/216422507-ca87a97a-6326-4af1-a7ca-ead09e596eb6.png">
 
+### Merge
+Menggabungkan Branch
+
+**Dua Jenis Merge**
+- Fast Forward
+Branch yang diinginkan berada di jalur langsung. 
+
+<img width="336" alt="Screenshot 2023-02-03 021136" src="https://user-images.githubusercontent.com/123937217/216425667-7a37d1a3-4305-4faf-9e74-ed5dba433403.png">
+
+> Menghapus Branch
+> Untuk menghapus branch gunakan $ 'git branch -d <nama_branch>'
+
+<img width="370" alt="Screenshot 2023-02-03 021641" src="https://user-images.githubusercontent.com/123937217/216427179-d0569d0b-8388-428a-9d86-b2150ce9c397.png">
+
+- Three-way Merge
+Branch yang tidak ada *direct path*.
+
+<img width="346" alt="Screenshot 2023-02-03 022528" src="https://user-images.githubusercontent.com/123937217/216429145-0cb5b0ed-e0e1-433c-ae46-2e8c51b0b565.png">
 
 
