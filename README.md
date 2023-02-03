@@ -161,6 +161,7 @@ Git Bash bisa dibuka di Commad Promt atau di Git Bash yang diberi secara otomati
 > Menggunakan git commit : staging ke history.
 3. History : perubahan yang dicommit akan masuk ke history.
 <img width="403" alt="gitlog" src="https://user-images.githubusercontent.com/123937217/216412704-b25d2110-b46f-46da-aaba-e7789691ee1c.png">
+
 > branch **master** merupakan commit yang aktif, **head** menunjuk pada branch tersebut.
 
 > Pada nomor 2 dan 3, repo akan tersimpan di folder .git secara otomatis.
@@ -198,6 +199,7 @@ Branch yang diinginkan berada di jalur langsung.
 <img width="336" alt="Screenshot 2023-02-03 021136" src="https://user-images.githubusercontent.com/123937217/216425667-7a37d1a3-4305-4faf-9e74-ed5dba433403.png">
 
 > Menghapus Branch
+
 > Untuk menghapus branch gunakan $ 'git branch -d <nama_branch>'
 
 <img width="370" alt="Screenshot 2023-02-03 021641" src="https://user-images.githubusercontent.com/123937217/216427179-d0569d0b-8388-428a-9d86-b2150ce9c397.png">
@@ -207,4 +209,36 @@ Branch yang tidak ada *direct path*.
 
 <img width="346" alt="Screenshot 2023-02-03 022528" src="https://user-images.githubusercontent.com/123937217/216429145-0cb5b0ed-e0e1-433c-ae46-2e8c51b0b565.png">
 
+## Git Merge Conflict
+Hal ini bisa terjadi akibat dua branch melakukan baris yang sama dalam satu repo sehingga git tidak bisa melakukan merge secara otomatis.
 
+Contoh implementasinya adalah sebagai berikut
+- Menambah branch baru
+<img width="453" alt="Screenshot 2023-02-03 085607" src="https://user-images.githubusercontent.com/123937217/216494218-6d918a95-a69f-4fb6-adb1-d689008d401c.png">
+
+- Ada dua commit Three-way Merge, akan melakukan merge untuk digabungkan
+
+
+<img width="386" alt="Screenshot 2023-02-03 090429" src="https://user-images.githubusercontent.com/123937217/216494612-6b89f93c-3d29-4717-859e-8e60d88ae01e.png">
+
+<img width="392" alt="Screenshot 2023-02-03 090455" src="https://user-images.githubusercontent.com/123937217/216494634-f55dc19b-0843-4941-9cab-c3075250bd67.png">
+
+**Terjadi konflik pada merge
+
+>> Terdapat dua hal yang berubah, lalu memutuskan akan menggunakan yang akan digunakan.
+
+<img width="464" alt="Screenshot 2023-02-03 090526" src="https://user-images.githubusercontent.com/123937217/216495175-a771d0b7-e754-4cb0-a4c6-4c61783cd5ed.png">
+
+>> Hijau : perubahan pada branch aktif
+
+>> Biru : data yang berubah pada branch yang digabungkan
+
+> Merge belum selesai, lakukan merge pada branch yang conflict
+
+<img width="347" alt="Screenshot 2023-02-03 092623" src="https://user-images.githubusercontent.com/123937217/216497076-84c293c6-5e69-496e-874f-4fd3ed20ef03.png">
+
+>> Merge sudah selesai
+
+
+
+ 
