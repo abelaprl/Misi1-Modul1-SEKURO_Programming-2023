@@ -193,6 +193,7 @@ Git Bash bisa dibuka di Commad Promt atau di Git Bash yang diberi secara otomati
 Menggabungkan Branch
 
 **Dua Jenis Merge**
+
 - Fast Forward
 Branch yang diinginkan berada di jalur langsung. 
 
@@ -218,12 +219,11 @@ Contoh implementasinya adalah sebagai berikut
 
 - Ada dua commit Three-way Merge, akan melakukan merge untuk digabungkan
 
-
 <img width="386" alt="Screenshot 2023-02-03 090429" src="https://user-images.githubusercontent.com/123937217/216494612-6b89f93c-3d29-4717-859e-8e60d88ae01e.png">
 
 <img width="392" alt="Screenshot 2023-02-03 090455" src="https://user-images.githubusercontent.com/123937217/216494634-f55dc19b-0843-4941-9cab-c3075250bd67.png">
 
-**Terjadi konflik pada merge
+**Terjadi konflik pada merge**
 
 >> Terdapat dua hal yang berubah, lalu memutuskan akan menggunakan yang akan digunakan.
 
@@ -239,6 +239,20 @@ Contoh implementasinya adalah sebagai berikut
 
 >> Merge sudah selesai
 
+## .gitignore
+
+Suatu file yang berfungsi untuk menyembunyikan file/folder tertentu agar tidak ikut terpanggil saat ada command yang memanggil semua file/folder.
+
+1. Buat file gitignore pada vscode
+
+<img width="161" alt="ignore" src="https://user-images.githubusercontent.com/123937217/216500114-9a16384e-6e05-4e78-a353-01e163945167.png">
+
+2. Menghubungkan file sebelumnya ke GitHub
+
+<img width="437" alt="Screenshot 2023-02-03 095155" src="https://user-images.githubusercontent.com/123937217/216500439-f2865026-bc77-42dc-998b-64d3acd9e867.png">
+
+3. Tulis nama file  / folder yang ingin diabaikan 
+
+<img width="304" alt="Screenshot 2023-02-03 104800" src="https://user-images.githubusercontent.com/123937217/216507473-e54ede98-203a-4d8a-9a05-56cf0c5637e8.png">
 
 
- 
